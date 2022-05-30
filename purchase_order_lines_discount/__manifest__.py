@@ -13,9 +13,10 @@
 
     'images': ["static/description/main_banner.png"],
     'author': "Sayed Hassan",
-    'version': '14.0',
+    'version': '15.0',
     'license': "AGPL-3",
     'category': "Purchase Management",
+
 
     # any module necessary for this one to work correctly
     'depends': ['base', 'purchase'],

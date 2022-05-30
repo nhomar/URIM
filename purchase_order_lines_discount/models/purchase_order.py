@@ -47,8 +47,8 @@ class PurchaseOrderLine(models.Model):
 
         return {
             'price_unit': price_unit_w_discount,
-            'currency_id': self.order_id.currency_id,
-            'product_qty': self.product_qty,
-           'product': self.product_id,
+            'currency': self.order_id.currency_id,
+            'quantity': self.product_qty,
+            'product': self.product_id,
             'partner': self.order_id.partner_id,
         }
