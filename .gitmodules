@@ -1,0 +1,4 @@
+[submodule "icm"]
+	path = icm
+	url = git@git.vauxoo.com:vauxoo/icm.git
+	branch = 15.0
